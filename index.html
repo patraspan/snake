@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Game</title>
-
+  <title>Games! - Snake, Pong (in future)</title>
+  <!-- LINKS -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <canvas id="snake" width="400" height="400"> </canvas>
+    
+  <!-- content -->
+  
+  <div id="fullpage">
+    <div class="section">
+      <div class="content">
+        <canvas id="snake" width="500" height="500"> </canvas>
+      </div>
+    </div>
+    <div class="section">
+      <div class="content">
+        <div class="comingSoon">
+            <h1>Coming soon</h1>
+        </div>
+          
+          <canvas id="pong" width="500" height="500"> </canvas>
+      </div>
+      
+    </div>
+  </div>
+ 
+
+
+  <!-- SCRIPTS -->
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+  <script src="./assets/snake.js"></script>
   <script src="main.js"></script>
 </body>
+
 </html>
