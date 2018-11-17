@@ -1,2 +1,2 @@
 # snake
-Play hame at [link]https://patraspan.github.io/snake/
+Play hame at [link](https://patraspan.github.io/snake/)
