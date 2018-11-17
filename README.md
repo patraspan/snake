@@ -1,2 +1,2 @@
-# snake
-Play hame at [link](https://patraspan.github.io/snake/)
+# Games
+## Play hame at [this site](https://patraspan.github.io/snake/)
