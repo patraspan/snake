@@ -1,3 +1,4 @@
+$(document).ready(function () {
 const canvas = document.getElementById('pong'),
       ctx = canvas.getContext('2d');
 
@@ -24,3 +25,5 @@ function Ball(size, color, posX, posY) {
   this.speedX = 2;
   this.speedY = 2;
 }
+
+});

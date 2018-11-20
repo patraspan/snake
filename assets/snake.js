@@ -1,7 +1,6 @@
 $(document).ready(function () {
-
   //variables
-  const canvas = document.getElementById('snake'),
+  let canvas = document.getElementById('snake'),
     context = canvas.getContext('2d'),
     width = canvas.width,
     height = canvas.height,
