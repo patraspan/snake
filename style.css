@@ -50,6 +50,9 @@ a {
   color: white;
 }
 
+#pong {
+  border: 2px solid black;
+}
 /* @media screen and (min-width: 1200px ) {
   canvas {
     width: 800px;
