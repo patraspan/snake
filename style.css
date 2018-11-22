@@ -51,7 +51,9 @@ a {
 }
 
 #pong {
-  border: 2px solid black;
+  max-width: 1500px;
+  border: 2px solid #c23616;
+  background: #353b48;
 }
 /* @media screen and (min-width: 1200px ) {
   canvas {
