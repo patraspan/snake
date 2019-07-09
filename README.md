@@ -1,3 +1,3 @@
 # Games
 
-Play hame at [this site](https://patraspan.github.io/snake/)
+Play hame at [this site](https://patrykkurzeja91.github.io/snake/)
